@@ -1,0 +1,118 @@
+name,aliases,role,diet,allergens,slots,kcal,protein,carbs,fat,fiber,unit,unit_g,cup_g,bowl_g,step_g,max_steps,display
+chicken breast (cooked),chicken|grilled chicken|chicken tikka|boiled chicken|roast chicken|chicken breast,protein,nonveg,,lunch|dinner,165,31,0,3.6,0,piece,120,,,50,4,grams
+chicken thigh (cooked),chicken thigh|chicken leg|chicken drumstick,protein,nonveg,,lunch|dinner,209,26,0,10.9,0,piece,100,,,50,4,grams
+chicken curry,chicken masala|murgh curry|chicken gravy|chicken korma|kadai chicken,protein,nonveg,,,140,13,4,8,0.8,katori,150,200,,50,4,grams
+chicken biryani,biryani|chicken biriyani|hyderabadi biryani,carb,nonveg,,,190,8.5,22,7.5,1,plate,300,,,50,4,grams
+egg (boiled),egg|eggs|boiled egg|boiled eggs|hard boiled egg|anda|whole egg,protein,eggetarian,egg,breakfast|lunch|dinner|snack,155,12.6,1.1,10.6,0,egg,50,,,50,4,unit
+egg white,egg whites|white of egg|boiled egg white,protein,eggetarian,egg,breakfast|snack,52,10.9,0.7,0.2,0,white,33,,,33,6,unit
+scrambled eggs,omelette|omelet|scrambled egg|egg bhurji|anda bhurji|masala omelette|fried egg|egg omelette,protein,eggetarian,egg,,149,10,1.6,11,0,serving,100,,,50,4,grams
+salmon (cooked),salmon|grilled salmon|baked salmon,protein,pescatarian,fish,lunch|dinner,206,22,0,12,0,fillet,150,,,50,4,grams
+white fish (cooked),fish|tilapia|cod|basa|rohu|pomfret|grilled fish|steamed fish|baked fish,protein,pescatarian,fish,lunch|dinner,128,26,0,2.7,0,fillet,120,,,50,4,grams
+fish curry,fish masala|machher jhol|fish gravy|goan fish curry,protein,pescatarian,fish,,110,12,3,5,0.5,katori,150,200,,50,4,grams
+tuna (canned),tuna|canned tuna|tuna in water|tuna can,protein,pescatarian,fish,lunch|dinner|snack,116,25.5,0,0.8,0,can,112,,,56,3,grams
+shrimp (cooked),shrimp|prawns|prawn|jhinga|grilled shrimp,protein,pescatarian,shellfish,lunch|dinner,99,24,0.2,0.3,0,serving,100,,,50,4,grams
+mutton (cooked),mutton|lamb|goat meat|mutton curry|gosht|mutton masala,protein,nonveg,,lunch|dinner,234,26,0,14,0,serving,100,,,50,3,grams
+beef (lean cooked),beef|steak|minced beef|beef curry|ground beef,protein,nonveg,,lunch|dinner,217,26,0,12,0,serving,100,,,50,4,grams
+paneer,paneer|cottage cheese|paneer cubes|panir|grilled paneer|paneer tikka,protein,vegetarian,dairy,breakfast|lunch|dinner|snack,265,18,1.2,20.8,0,serving,100,,,50,4,grams
+paneer curry,paneer butter masala|shahi paneer|palak paneer|paneer masala|matar paneer|kadai paneer|saag paneer|paneer curry,protein,vegetarian,dairy,,190,9,7,14,1.5,katori,150,200,,50,4,grams
+tofu (firm),tofu|bean curd|soya paneer|soy paneer|grilled tofu,protein,vegan,soy,lunch|dinner,144,17,2.8,8.7,2.3,serving,100,,,50,4,grams
+soya chunks (cooked),soya chunks|soy chunks|meal maker|soya granules|soy protein chunks,protein,vegan,soy,lunch|dinner,120,18,11,0.3,4.5,serving,100,,,50,4,grams
+dal (cooked),dal|daal|lentils|toor dal|moong dal|masoor dal|dal tadka|dal fry|lentil soup|arhar dal|chana dal|urad dal,protein,vegan,,lunch|dinner,116,8,17,2,5,katori,150,200,,50,6,grams
+rajma curry,rajma|kidney beans|rajma masala|red kidney beans,protein,vegan,,lunch|dinner,130,6.5,17,4,5,katori,150,200,,50,5,grams
+chickpeas (boiled),chana|chickpeas|kabuli chana|boiled chana|garbanzo|chickpea,protein,vegan,,lunch|dinner|snack,164,8.9,27.4,2.6,7.6,katori,150,164,,50,4,grams
+chole curry,chole|chana masala|chhole|chole masala,protein,vegan,,,150,7,20,5,6,katori,150,200,,50,4,grams
+greek yogurt,greek yogurt|greek yoghurt|hung curd|high protein curd|greek curd,protein,vegetarian,dairy,breakfast|snack,73,9.9,3.9,1.9,0,cup,245,245,,50,5,grams
+whey protein,whey|whey protein|protein powder|protein shake|protein scoop|isolate|whey isolate|protein supplement,protein,vegetarian,dairy,breakfast|snack,400,80,8,6,0,scoop,30,,,30,2,unit
+milk (whole),milk|full cream milk|doodh|whole milk|cow milk|full fat milk,dairy,vegetarian,dairy,breakfast|snack,61,3.2,4.8,3.3,0,glass,244,244,,122,3,unit
+milk (low-fat),toned milk|double toned milk|low fat milk|2% milk|semi skimmed milk,dairy,vegetarian,dairy,breakfast|snack,50,3.3,4.8,2,0,glass,244,244,,122,3,unit
+milk (skim),skim milk|skimmed milk|nonfat milk|fat free milk,dairy,vegetarian,dairy,breakfast|snack,34,3.4,5,0.1,0,glass,245,245,,122,3,unit
+curd (plain),curd|dahi|yogurt|yoghurt|plain yogurt|plain curd|set curd|natural yogurt,dairy,vegetarian,dairy,breakfast|lunch|dinner|snack,61,3.5,4.7,3.3,0,katori,150,245,,50,5,grams
+buttermilk,buttermilk|chaas|chach|mattha|salted buttermilk|masala chaas,dairy,vegetarian,dairy,lunch|snack,36,2.6,4.3,1,0,glass,245,245,,122,2,unit
+cheese (cheddar),cheese|cheddar|cheese slice|processed cheese|mozzarella|cheese cube,dairy,vegetarian,dairy,breakfast|lunch|dinner|snack,403,24.9,1.3,33.1,0,slice,28,,,14,4,grams
+soy milk (unsweetened),soy milk|soya milk,dairy,vegan,soy,breakfast|snack,33,2.9,1.7,1.8,0.4,glass,243,243,,122,3,unit
+almond milk (unsweetened),almond milk,dairy,vegan,nuts,breakfast|snack,15,0.6,0.6,1.2,0.2,glass,240,240,,120,3,unit
+almonds,almonds|badam|almond|soaked almonds,fat,vegan,nuts,breakfast|snack,579,21.2,21.6,49.9,12.5,handful,28,,,14,4,grams
+walnuts,walnuts|akhrot|walnut,fat,vegan,nuts,breakfast|snack,654,15.2,13.7,65.2,6.7,handful,28,,,14,3,grams
+cashews,cashews|kaju|cashew nuts|cashew,fat,vegan,nuts,breakfast|snack,553,18.2,30.2,43.9,3.3,handful,28,,,14,3,grams
+peanuts (roasted),peanuts|moongphali|groundnuts|roasted peanuts|peanut|mungfali,fat,vegan,peanut,snack|breakfast,585,23.7,21.5,49.7,8,handful,28,,,14,4,grams
+peanut butter,peanut butter|pb|peanut spread|nut butter,fat,vegan,peanut,breakfast|snack,588,25,20,50,6,tbsp,16,,,16,3,unit
+chia seeds,chia|chia seeds,fat,vegan,,breakfast|snack,486,16.5,42.1,30.7,34.4,tbsp,12,,,12,2,unit
+flaxseeds,flax|flaxseed|flax seeds|alsi|linseed,fat,vegan,,breakfast|snack,534,18.3,28.9,42.2,27.3,tbsp,10,,,10,2,unit
+olive oil,olive oil|extra virgin olive oil|evoo,fat,vegan,,lunch|dinner,884,0,0,100,0,tsp,4.5,,,4.5,4,unit
+cooking oil,cooking oil|oil|vegetable oil|sunflower oil|mustard oil|refined oil|groundnut oil|sarso ka tel|rice bran oil,fat,vegan,,,884,0,0,100,0,tsp,4.5,,,4.5,4,unit
+ghee,ghee|clarified butter|desi ghee|cow ghee,fat,vegetarian,dairy,lunch|dinner|breakfast,876,0.3,0,99.5,0,tsp,5,,,5,3,unit
+butter,butter|makhan|salted butter,fat,vegetarian,dairy,breakfast,717,0.9,0.1,81.1,0,tsp,4.7,,,4.7,3,unit
+avocado,avocado|avo|guacamole,fat,vegan,,breakfast|lunch|dinner|snack,160,2,8.5,14.7,6.7,avocado,150,,,50,3,grams
+hummus,hummus|houmous|chickpea dip,fat,vegan,sesame,lunch|dinner|snack,166,7.9,14.3,9.6,6,tbsp,15,,,30,3,grams
+white rice (cooked),rice|white rice|steamed rice|boiled rice|plain rice|chawal|basmati rice|cooked rice,carb,vegan,,lunch|dinner,130,2.7,28.2,0.3,0.4,cup,158,158,,39.5,8,unit
+brown rice (cooked),brown rice,carb,vegan,,lunch|dinner,123,2.7,25.6,1,1.8,cup,195,195,,48.75,8,unit
+roti,roti|chapati|chapatti|phulka|fulka|rotli|wheat roti|whole wheat roti|tandoori roti|plain roti,carb,vegan,gluten,lunch|dinner,270,9.5,50,4.5,6,roti,40,,,40,4,unit
+paratha,paratha|parantha|plain paratha|ghee paratha,carb,vegetarian,gluten|dairy,,325,7.5,45,13,3.5,paratha,80,,,80,3,unit
+naan,naan|butter naan|garlic naan|tandoori naan,carb,vegetarian,gluten|dairy,,290,9,50,5.5,2,naan,90,,,90,3,unit
+whole wheat bread,whole wheat bread|brown bread|wheat bread|multigrain bread|atta bread|whole grain bread,carb,vegan,gluten,breakfast,247,13,41,3.4,7,slice,28,,,28,4,unit
+white bread,bread|white bread|toast|bread slice|bread slices|sandwich bread,carb,vegan,gluten,breakfast,265,9,49,3.2,2.7,slice,28,,,28,4,unit
+rolled oats (dry),oats|rolled oats|dry oats|raw oats|porridge oats|quick oats|instant oats,carb,vegan,gluten,breakfast,389,16.9,66.3,6.9,10.6,serving,40,80,40,20,4,grams
+oatmeal (cooked),oatmeal|porridge|cooked oats|oats porridge|oats bowl|cooked oatmeal,carb,vegan,gluten,,71,2.5,12,1.5,1.7,cup,234,234,240,60,4,grams
+cornflakes,cornflakes|corn flakes|cereal|breakfast cereal,carb,vegan,gluten,breakfast,357,7.5,84,0.4,3.3,bowl,30,,,15,4,grams
+poha,poha|flattened rice|kanda poha|aval|vegetable poha,carb,vegan,,breakfast,135,2.7,23,3.5,1.5,plate,180,,,45,5,grams
+upma,upma|rava upma|suji upma|semolina upma|vegetable upma,carb,vegan,gluten,breakfast,125,3,20,3.5,1.5,plate,200,,,50,5,grams
+idli,idli|idly|steamed idli|rava idli,carb,vegan,,breakfast,149,5,30.8,1,1,idli,39,,,39,6,unit
+dosa (plain),dosa|plain dosa|sada dosa|crispy dosa,carb,vegan,,breakfast,168,3.9,29,3.7,1,dosa,90,,,90,3,unit
+sambar,sambar|sambhar|vegetable sambar,protein,vegan,,,50,2.5,7,1.5,1.5,katori,150,200,,50,4,grams
+khichdi,khichdi|khichri|moong dal khichdi|dal khichdi|vegetable khichdi,carb,vegetarian,dairy,,120,4.5,19,3,2,katori,150,200,,50,4,grams
+pasta (cooked),pasta|spaghetti|macaroni|penne|boiled pasta|fusilli,carb,vegan,gluten,lunch|dinner,158,5.8,30.9,0.9,1.8,cup,140,140,,35,6,grams
+noodles (cooked),noodles|hakka noodles|chowmein|chow mein|egg noodles|veg noodles,carb,vegan,gluten,,138,4.5,25,2.1,1.2,cup,160,160,,40,4,grams
+potato (boiled),potato|aloo|boiled potato|baked potato,carb,vegan,,lunch|dinner,87,1.9,20.1,0.1,1.8,potato,150,,,50,6,grams
+sweet potato,sweet potato|shakarkandi|boiled sweet potato|baked sweet potato,carb,vegan,,lunch|dinner|breakfast|snack,90,2,20.7,0.2,3.3,potato,130,,,65,4,grams
+quinoa (cooked),quinoa|cooked quinoa,carb,vegan,,lunch|dinner,120,4.4,21.3,1.9,2.8,cup,185,185,,46,5,grams
+daliya (cooked),daliya|dalia|cracked wheat|broken wheat|bulgur|dalia porridge,carb,vegan,gluten,breakfast|lunch|dinner,83,3.1,18.6,0.2,4.5,cup,182,182,,46,5,grams
+pulao,pulao|veg pulao|jeera rice|vegetable pulao|fried rice|vegetable fried rice,carb,vegan,,,150,3,25,4,1.5,plate,250,,,50,4,grams
+broccoli (cooked),broccoli|steamed broccoli|boiled broccoli,veg,vegan,,lunch|dinner,35,2.4,7.2,0.4,3.3,cup,156,156,,50,4,grams
+spinach (cooked),spinach|palak|cooked spinach|saag|palak sabzi,veg,vegan,,lunch|dinner,23,3,3.8,0.3,2.4,cup,180,180,,50,4,grams
+mixed vegetables (cooked),mixed vegetables|mixed veg|sabzi|vegetable curry|veg sabzi|vegetables|sabji|subzi|stir fried vegetables|veg curry|sauteed vegetables,veg,vegan,,lunch|dinner,80,2.5,9,3.8,3.5,katori,120,,,50,4,grams
+cucumber,cucumber|kheera|salad cucumber,veg,vegan,,lunch|dinner|snack,15,0.7,3.6,0.1,0.5,cup,119,119,,50,4,grams
+tomato,tomato|tamatar,veg,vegan,,lunch|dinner|breakfast,18,0.9,3.9,0.2,1.2,tomato,123,,,50,2,grams
+onion,onion|pyaz|raw onion,veg,vegan,,,40,1.1,9.3,0.1,1.7,onion,110,,,30,3,grams
+carrot,carrot|gajar|raw carrot,veg,vegan,,lunch|dinner|snack,41,0.9,9.6,0.2,2.8,carrot,61,,,50,3,grams
+cauliflower (cooked),cauliflower|gobi|gobhi|cooked cauliflower|steamed cauliflower,veg,vegan,,lunch|dinner,23,1.8,4.1,0.5,2.3,cup,124,124,,50,4,grams
+cabbage (cooked),cabbage|patta gobhi|band gobhi|cooked cabbage,veg,vegan,,lunch|dinner,23,1.3,5.5,0.1,1.7,cup,150,150,,50,4,grams
+green beans (cooked),green beans|french beans|beans|cooked green beans,veg,vegan,,lunch|dinner,35,1.9,7.9,0.3,3.2,cup,125,125,,50,4,grams
+bell pepper,bell pepper|capsicum|shimla mirch|peppers|red pepper|green pepper,veg,vegan,,lunch|dinner,26,1,6,0.2,2,pepper,120,,,50,3,grams
+okra (cooked),okra|bhindi|ladyfinger|lady finger|bhindi sabzi,veg,vegan,,lunch|dinner,22,1.9,4.5,0.2,2.5,cup,160,160,,50,4,grams
+salad greens,lettuce|salad|green salad|salad greens|mixed greens|iceberg|garden salad|mixed salad,veg,vegan,,lunch|dinner,15,1.4,2.9,0.2,1.3,bowl,100,56,100,50,4,grams
+mushrooms (cooked),mushrooms|mushroom|button mushrooms|cooked mushrooms|mushroom sabzi,veg,vegan,,lunch|dinner,28,2.2,5.3,0.5,2.2,cup,156,156,,50,4,grams
+green peas (cooked),peas|green peas|matar|boiled peas|cooked peas,veg,vegan,,lunch|dinner,84,5.4,15.6,0.2,5.5,cup,160,160,,40,4,grams
+bottle gourd (cooked),lauki|dudhi|ghia|bottle gourd|lauki sabzi|doodhi,veg,vegan,,lunch|dinner,15,0.6,3.4,0.1,0.5,cup,150,150,,50,4,grams
+beetroot (cooked),beetroot|beet|chukandar|boiled beetroot,veg,vegan,,lunch|dinner|snack,44,1.7,10,0.2,2,cup,170,170,,50,3,grams
+banana,banana|bananas|kela|ripe banana,fruit,vegan,,breakfast|snack,89,1.1,22.8,0.3,2.6,banana,118,,,59,4,unit
+apple,apple|apples|seb,fruit,vegan,,breakfast|snack,52,0.3,13.8,0.2,2.4,apple,182,,,91,3,unit
+orange,orange|oranges|santra|mosambi|sweet lime|kinnow|mandarin,fruit,vegan,,breakfast|snack,47,0.9,11.8,0.1,2.4,orange,131,,,66,3,unit
+mango,mango|aam|mangoes|mango slices,fruit,vegan,,breakfast|snack,60,0.8,15,0.4,1.6,cup,165,165,,82.5,3,unit
+papaya,papaya|papita,fruit,vegan,,breakfast|snack,43,0.5,10.8,0.3,1.7,cup,145,145,,72.5,3,unit
+watermelon,watermelon|tarbooz,fruit,vegan,,snack,30,0.6,7.6,0.2,0.4,cup,152,152,,76,3,unit
+grapes,grapes|angoor|green grapes|black grapes,fruit,vegan,,snack,69,0.7,18.1,0.2,0.9,cup,151,151,,75.5,2,unit
+strawberries,strawberries|strawberry,fruit,vegan,,breakfast|snack,32,0.7,7.7,0.3,2,cup,152,152,,76,3,unit
+blueberries,blueberries|blueberry,fruit,vegan,,breakfast|snack,57,0.7,14.5,0.3,2.4,cup,148,148,,74,3,unit
+pomegranate,pomegranate|anar|pomegranate seeds,fruit,vegan,,snack,83,1.7,18.7,1.2,4,cup,174,174,,87,2,unit
+guava,guava|amrood|peru,fruit,vegan,,breakfast|snack,68,2.6,14.3,1,5.4,guava,100,,,50,3,grams
+pineapple,pineapple|ananas,fruit,vegan,,snack,50,0.5,13.1,0.1,1.4,cup,165,165,,82.5,2,unit
+dates,dates|khajoor|medjool dates|date|dry dates,fruit,vegan,,breakfast|snack,277,1.8,75,0.2,6.7,date,24,,,24,4,unit
+coconut water,coconut water|nariyal pani|tender coconut water|nariyal paani,snack,vegan,,snack,19,0.7,3.7,0.2,1.1,glass,240,240,,120,2,unit
+makhana (roasted),makhana|fox nuts|lotus seeds|phool makhana|makhane|roasted makhana,snack,vegan,,snack,347,9.7,76.9,0.1,14.5,handful,30,,,15,3,grams
+roasted chana,roasted chana|bhuna chana|roasted chickpeas|chana roasted|futana,snack,vegan,,snack,364,19,61,6,17,handful,30,,,15,3,grams
+popcorn (air-popped),popcorn|air popped popcorn|plain popcorn,snack,vegan,,snack,387,12.9,77.8,4.5,14.5,cup,8,8,,8,6,unit
+protein bar,protein bar|protein bars|energy bar|nutrition bar,snack,vegetarian,dairy|soy|nuts|gluten,snack,370,33,35,11,6,bar,60,,,60,1,unit
+biscuit (tea),biscuit|biscuits|marie biscuit|tea biscuit|cookies|cookie|digestive biscuit,snack,vegetarian,gluten|dairy,,440,6.5,72,14,2,biscuit,8,,,8,4,unit
+potato chips,chips|potato chips|crisps|wafers,snack,vegan,,,536,7,53,35,4.8,packet,30,,,28,2,grams
+french fries,french fries|fries|finger chips,carb,vegan,,,312,3.4,41,15,3.8,serving,117,,,117,2,grams
+samosa,samosa|samosas|aloo samosa|veg samosa,snack,vegan,gluten,,262,3.5,24,17,2.5,samosa,60,,,60,3,unit
+pizza (cheese),pizza|cheese pizza|margherita pizza|pizza slice|veg pizza,carb,vegetarian,dairy|gluten,,266,11,33,10,2.3,slice,107,,,107,3,unit
+burger,burger|cheeseburger|hamburger|chicken burger|veg burger,protein,nonveg,gluten|dairy,,263,13.6,29.5,10.6,1.5,burger,119,,,119,2,unit
+ice cream,ice cream|icecream|vanilla ice cream|chocolate ice cream|kulfi,snack,vegetarian,dairy,,207,3.5,23.6,11,0.7,scoop,66,,,66,3,unit
+cola,cola|soft drink|soda|cold drink|fizzy drink|carbonated drink,snack,vegan,,,42,0,10.6,0,0,glass,250,250,,250,2,unit
+orange juice,orange juice|juice|fruit juice|packaged juice|fresh juice|mosambi juice,snack,vegan,,,45,0.7,10.4,0.2,0.2,glass,248,248,,248,2,unit
+chai (milk tea),chai|tea|masala chai|milk tea|tea with milk|cutting chai|coffee|coffee with milk|milk coffee,snack,vegetarian,dairy,,50,1.2,7.5,1.5,0,cup,150,150,,150,3,unit
+black coffee,black coffee|americano|espresso|black tea|green tea|lemon tea|tea without sugar|unsweetened tea,snack,vegan,,,2,0.3,0,0,0,cup,240,240,,240,3,unit
+lassi (sweet),lassi|sweet lassi|mango lassi|punjabi lassi,snack,vegetarian,dairy,,105,3,15,3.5,0,glass,250,250,,250,2,unit
+sugar,sugar|cheeni|white sugar|brown sugar,snack,vegan,,,387,0,100,0,0,tsp,4,,,4,6,unit
+honey,honey|shahad|raw honey,snack,vegetarian,,,304,0.3,82,0,0.2,tsp,7,,,7,6,unit

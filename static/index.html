@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#0e1013">
+  <title>Ironplate</title>
+  <meta name="description" content="Nutrition and training assistant.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500&display=swap">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="app">
+    <header class="top">
+      <h1 class="brand">Ironplate</h1>
+      <button id="new-chat" class="btn ghost glow tilt" type="button">New chat</button>
+    </header>
+
+    <section id="today" class="today" aria-label="Today" hidden>
+      <div class="meter" data-key="kcal">
+        <div class="meter-top"><span>Calories</span><span class="num" data-role="value"></span></div>
+        <div class="track"><div class="fill"></div></div>
+      </div>
+      <div class="meter" data-key="protein">
+        <div class="meter-top"><span>Protein</span><span class="num" data-role="value"></span></div>
+        <div class="track"><div class="fill protein"></div></div>
+      </div>
+      <div class="meter" data-key="carbs">
+        <div class="meter-top"><span>Carbs</span><span class="num" data-role="value"></span></div>
+        <div class="track"><div class="fill carbs"></div></div>
+      </div>
+      <div class="meter" data-key="fat">
+        <div class="meter-top"><span>Fat</span><span class="num" data-role="value"></span></div>
+        <div class="track"><div class="fill fat"></div></div>
+      </div>
+    </section>
+
+    <main id="feed" class="feed" aria-live="polite" aria-label="Conversation"></main>
+
+    <form id="composer" class="composer glow" autocomplete="off">
+      <label class="sr-only" for="input">Message</label>
+      <textarea id="input" rows="1" maxlength="600" placeholder="Type a message" enterkeyhint="send"></textarea>
+      <button id="send" class="btn primary glow tilt" type="submit" aria-label="Send">
+        <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M12 19V6m0 0-5 5m5-5 5 5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </button>
+    </form>
+
+    <footer class="foot">
+      <div class="foot-row">
+        <span class="stack">FastAPI, scikit-learn, SciPy, NumPy</span>
+        <nav class="links" aria-label="Links">
+          <a href="https://github.com/AbhishekGrover1" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/abhishek-grover-07" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <span>&copy; 2026</span>
+        </nav>
+      </div>
+      <p class="credit">AI ML Engineer Abhishek Grover</p>
+    </footer>
+  </div>
+  <script src="/script.js" defer></script>
+</body>
+</html>

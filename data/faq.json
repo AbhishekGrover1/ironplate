@@ -1,0 +1,223 @@
+[
+  {
+    "id": "spot_fat",
+    "questions": [
+      "how do i lose belly fat",
+      "best way to lose belly fat",
+      "how to burn belly fat",
+      "does spot reduction work",
+      "how to lose fat from my stomach",
+      "how can i get rid of belly fat",
+      "how do i lose arm fat",
+      "how to reduce thigh fat"
+    ],
+    "answer": "You can't choose where fat comes off. A steady calorie deficit, enough protein and regular strength training lower overall body fat, and belly fat usually follows. If you want, I can calculate your calorie target.",
+    "when": "belly|stomach fat|tummy|spot reduc|arm fat|thigh fat|love handles|lose fat from"
+  },
+  {
+    "id": "fasting",
+    "questions": [
+      "what is intermittent fasting",
+      "is intermittent fasting good",
+      "should i do intermittent fasting",
+      "does fasting help lose weight",
+      "is 16 8 fasting worth it",
+      "should i skip breakfast"
+    ],
+    "answer": "Intermittent fasting is a way of arranging meal times. It helps some people eat less, but it does not burn extra fat by itself. Total calories and protein matter most, so pick the eating pattern you can keep up.",
+    "when": "fasting|skip(?:ping)? breakfast|16\\s*:?\\s*8"
+  },
+  {
+    "id": "keto",
+    "questions": [
+      "is keto good",
+      "what is the keto diet",
+      "should i try keto",
+      "is a low carb diet better for fat loss",
+      "does keto work",
+      "is keto healthy"
+    ],
+    "answer": "A ketogenic diet is very low in carbohydrate. It can lower weight in the short term, mostly because people eat less, but it is not required for fat loss and is hard to sustain. If you have a medical condition or take medication, talk to a clinician first.",
+    "when": "\\bketo\\b|ketogenic|low[- ]carb diet"
+  },
+  {
+    "id": "creatine",
+    "questions": [
+      "should i take creatine",
+      "is creatine safe",
+      "what does creatine do",
+      "how much creatine should i take",
+      "is creatine worth it",
+      "creatine dosage"
+    ],
+    "answer": "Creatine monohydrate is one of the best-studied supplements for strength and muscle. The usual dose is 3 to 5 g a day, and it is generally considered safe for healthy adults. Check with a clinician first if you have kidney problems or take medication.",
+    "when": "creatine"
+  },
+  {
+    "id": "water",
+    "questions": [
+      "how much water should i drink",
+      "how much water do i need daily",
+      "how many litres of water per day",
+      "am i drinking enough water",
+      "daily water intake",
+      "should i drink more water"
+    ],
+    "answer": "A common starting point is about 30 to 35 ml of water per kg of body weight a day, more in hot weather or when you train. Pale yellow urine is a simple sign you are drinking enough.",
+    "when": "how much water|water intake|drink(?:ing)? (?:enough )?water|hydrat|litres? of water|liters? of water|enough water"
+  },
+  {
+    "id": "steps",
+    "questions": [
+      "how many steps per day",
+      "how many steps should i walk",
+      "is 10000 steps a day necessary",
+      "daily step goal",
+      "how many steps to lose weight"
+    ],
+    "answer": "Many people aim for 7,000 to 10,000 steps a day. A realistic first goal is to raise your current daily average by about 1,000 steps and hold it for a few weeks.",
+    "when": "\\bsteps\\b|daily steps|10,?000"
+  },
+  {
+    "id": "loss_rate",
+    "questions": [
+      "how fast can i lose weight safely",
+      "how much weight can i lose in a week",
+      "is it safe to lose 1 kg a week",
+      "how quickly should i lose weight",
+      "can i lose 10 kg in a month",
+      "how to lose weight fast",
+      "fastest way to lose weight"
+    ],
+    "answer": "About 0.5 to 1 percent of body weight per week is a sustainable pace for most people. Faster loss tends to cost muscle and is hard to keep up, so I keep deficits inside that range.",
+    "when": "(?:lose|losing|loss).{0,25}(?:fast|quick|safe|week|month|days?)|(?:fast|quick|safe)\\w*.{0,15}lose|fastest way to lose|how (?:fast|quickly) (?:can|should|do)"
+  },
+  {
+    "id": "cheat_meal",
+    "questions": [
+      "can i have a cheat meal",
+      "is a cheat day okay",
+      "i ate junk food what now",
+      "i ate too much yesterday",
+      "will one bad meal ruin my diet",
+      "i overate what should i do"
+    ],
+    "answer": "One high-calorie meal will not undo your progress. Weekly averages matter, so log it and go back to your normal plan at the next meal instead of skipping meals to make up for it.",
+    "when": "cheat (?:meal|day)|junk food|overate|ate too much|bad meal|blew my diet"
+  },
+  {
+    "id": "cardio_weights",
+    "questions": [
+      "cardio or weights for fat loss",
+      "is cardio better than lifting",
+      "should i do cardio",
+      "do i need cardio to lose weight",
+      "weights or cardio first"
+    ],
+    "answer": "For fat loss the calorie deficit does most of the work. Lifting protects muscle, and cardio adds calories burned and heart health. Two to four lifting sessions plus some walking or cardio is a solid mix.",
+    "when": "cardio|weights? or|lifting or"
+  },
+  {
+    "id": "reps_sets",
+    "questions": [
+      "how many reps should i do",
+      "how many sets per muscle per week",
+      "how many sets for muscle growth",
+      "what rep range builds muscle",
+      "how many reps for strength"
+    ],
+    "answer": "For muscle growth, sets of 6 to 15 reps taken close to failure work well, and roughly 10 to 20 hard sets per muscle per week suit most lifters. For strength, use heavier sets of 3 to 6 reps with longer rests.",
+    "when": "\\breps\\b|\\bsets per|how many sets|rep range|how many reps"
+  },
+  {
+    "id": "rest_days",
+    "questions": [
+      "how many rest days do i need",
+      "can i work out every day",
+      "is overtraining a problem",
+      "do i need rest days",
+      "how much rest between workouts"
+    ],
+    "answer": "Muscles grow while you recover. Most people do well with one or two full rest days a week, and a muscle group needs about 48 hours before it is trained hard again.",
+    "when": "rest days?|overtrain|(?:work ?out|train|exercise|lift|gym)\\w*\\s+every\\s*day|rest between"
+  },
+  {
+    "id": "sleep",
+    "questions": [
+      "how much sleep do i need",
+      "does sleep affect weight loss",
+      "does sleep matter for muscle growth",
+      "how many hours of sleep should i get"
+    ],
+    "answer": "Aim for 7 to 9 hours. Short sleep raises hunger, lowers training quality and slows recovery.",
+    "when": "\\bsleep\\b"
+  },
+  {
+    "id": "protein_timing",
+    "questions": [
+      "when should i eat protein",
+      "do i need protein right after a workout",
+      "is the anabolic window real",
+      "protein timing",
+      "should i drink a shake after training"
+    ],
+    "answer": "Total daily protein matters most. Spreading it over three to five meals, with a protein-rich meal within a few hours of training, works well.",
+    "when": "anabolic|protein timing|when should i eat protein|right after (?:a )?(?:workout|training)|shake after"
+  },
+  {
+    "id": "night_eating",
+    "questions": [
+      "do carbs at night make you fat",
+      "is eating late bad for weight loss",
+      "can i eat after 8 pm",
+      "does eating at night cause weight gain"
+    ],
+    "answer": "Eating at night does not cause fat gain by itself. Total calories across the day decide weight change, so eat when it suits your routine and fits your target.",
+    "when": "at night|late at night|after \\d+\\s*(?:pm|p\\.m)|eating late|carbs at night"
+  },
+  {
+    "id": "protein_powder",
+    "questions": [
+      "do i need protein powder",
+      "is whey protein safe",
+      "is protein powder necessary",
+      "should i take protein supplements",
+      "whey or plant protein"
+    ],
+    "answer": "Protein powder is just a convenient protein source. Use it if you struggle to reach your target from food. It is not necessary, and whole foods work just as well.",
+    "when": "(?:need|necessary|worth|safe|should i).{0,30}(?:protein powder|whey|protein supplements?)|whey or (?:plant|casein)"
+  },
+  {
+    "id": "results_time",
+    "questions": [
+      "how long until i see results",
+      "how long does it take to build muscle",
+      "when will i see changes in my body",
+      "how long before i notice a difference"
+    ],
+    "answer": "Strength usually improves within two to four weeks. Visible changes in body shape typically take eight to twelve weeks of steady training and eating, so judge progress by the trend over several weeks.",
+    "when": "see (?:results|changes)|how long (?:until|does it take|before|to see)|notice a difference"
+  },
+  {
+    "id": "carbs",
+    "questions": [
+      "are carbs bad",
+      "should i cut carbs",
+      "do carbs make you gain weight",
+      "should i avoid carbohydrates"
+    ],
+    "answer": "Carbohydrates are not bad. They fuel training, and weight change depends on total calories rather than any single nutrient. Keep fibre-rich carbs such as oats, rice, fruit and legumes in your plan.",
+    "when": "(?:are|is)\\s+carbs?\\s+bad|cut(?:ting)? carbs|carbs? make|avoid carb"
+  },
+  {
+    "id": "sugar",
+    "questions": [
+      "is sugar bad",
+      "can i eat sweets while dieting",
+      "is fruit sugar bad",
+      "can i have dessert on a diet"
+    ],
+    "answer": "Sugar fits in a diet when it stays within your calories. Get most of your carbohydrate from whole foods and treat sweets as an extra rather than the base.",
+    "when": "(?:is|are)\\s+(?:sugar|fruit sugar|sweets)\\s+bad|sweets while|dessert on a diet|can i (?:have|eat) (?:sweets|dessert)|sugar cravings"
+  }
+]

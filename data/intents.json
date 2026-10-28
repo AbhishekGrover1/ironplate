@@ -1,0 +1,324 @@
+{
+  "slots": {
+    "qty": ["1", "2", "3", "4", "one", "two", "a", "an", "half a", "a bowl of", "a cup of", "a glass of", "a plate of", "2 slices of", "1 katori", "100 g", "150g", "200 grams of", "1 serving of", "a handful of", "a scoop of", "2 tbsp", "3 pieces of"],
+    "meal": ["breakfast", "lunch", "dinner", "a snack", "brunch", "supper"],
+    "mealtype": ["breakfast", "lunch", "dinner", "snack"],
+    "goal": ["lose weight", "lose fat", "build muscle", "gain muscle", "bulk up", "cut", "maintain my weight", "get lean", "gain weight", "tone up", "recomp"],
+    "diet": ["vegetarian", "vegan", "non veg", "eggetarian", "veg", "pescatarian"],
+    "days": ["2", "3", "4", "5", "6"],
+    "n": ["3", "4", "5"],
+    "nutrient": ["protein", "fiber", "low calorie", "low carb", "low fat", "healthy fat"],
+    "equipment": ["home", "gym", "dumbbell", "bodyweight", "no equipment", "resistance band"],
+    "muscle": ["chest", "back", "shoulders", "biceps", "triceps", "legs", "glutes", "abs", "core", "quads", "hamstrings", "calves", "arms"],
+    "level": ["beginner", "intermediate", "advanced"]
+  },
+  "intents": {
+    "greet": {
+      "examples": [
+        "hi", "hello", "hey", "hey there", "hii", "hiii", "hello there", "good morning", "good evening",
+        "good afternoon", "yo", "namaste", "hola", "sup", "hey coach", "hi coach", "hello coach",
+        "hey you there", "anyone there", "hi bot", "hello bot", "morning", "evening", "howdy", "whats up",
+        "hey how are you", "hi how are you", "how are you", "how are you doing", "heyy", "hello friend",
+        "greetings", "hi there", "good day"
+      ],
+      "templates": []
+    },
+    "thanks": {
+      "examples": [
+        "thanks", "thank you", "thanks a lot", "thx", "ty", "thank u", "cool thanks", "great thanks",
+        "awesome", "perfect", "nice", "great", "that helps", "helpful thanks", "appreciate it",
+        "thanks coach", "okay thanks", "ok cool", "got it", "got it thanks", "alright", "sounds good",
+        "makes sense", "wow nice", "love it", "this is great", "thank you so much", "many thanks",
+        "much appreciated", "brilliant", "excellent", "good job", "well done", "that was useful", "yes",
+        "no", "ok", "okay", "yeah", "nope", "sure", "fine", "hmm", "lol", "cool", "nice one", "yes please",
+        "yes thanks", "no thanks", "please", "ok sure", "sounds great", "yes that works", "thanks, will do"
+      ],
+      "templates": []
+    },
+    "bye": {
+      "examples": [
+        "bye", "goodbye", "see you", "see ya", "see you later", "talk later", "good night", "gn",
+        "catch you later", "cya", "i'm done", "that's all", "that is all for now", "nothing else",
+        "i'll be back", "bye bye", "ttyl", "have a good day", "ok bye", "signing off", "later", "take care",
+        "i have to go", "gotta go", "good night coach", "see you tomorrow", "thats all for today"
+      ],
+      "templates": []
+    },
+    "help": {
+      "examples": [
+        "help", "what can you do", "what do you do", "how does this work", "how do i use this",
+        "show me what you can do", "commands", "features", "options", "what can i ask", "what can i ask you",
+        "what are your features", "guide me", "how to use", "i need help", "can you help me",
+        "how can you help me", "list your abilities", "tell me what you do", "menu", "help me get started",
+        "where do i start", "how do i begin", "how to get started", "instructions",
+        "what are you capable of", "what is possible here", "show me the options", "give me a tour",
+        "what should i try"
+      ],
+      "templates": []
+    },
+    "about": {
+      "examples": [
+        "who are you", "what are you", "who made you", "who built you", "who created you",
+        "who is your developer", "who developed this", "who is the author", "who is behind this",
+        "tell me about yourself", "introduce yourself", "are you a bot", "are you human", "are you an ai",
+        "what is this app", "what is this", "what's your name", "what is your name", "your name",
+        "how were you built", "how do you work", "what model do you use",
+        "what technology are you built with", "which tech stack do you use", "are you using an external api",
+        "what kind of machine learning do you use", "who owns this project", "who coded this",
+        "where did you come from", "tell me about this project", "about this app"
+      ],
+      "templates": []
+    },
+    "set_profile": {
+      "examples": [
+        "i'm 26, male, 178 cm and 78 kg", "i am 30 years old", "my weight is 82 kg", "my height is 5'10",
+        "i'm a 24 year old female", "i weigh 65 kg and i'm 160 cm tall", "set my age to 28",
+        "update my weight to 79.5", "i want to lose weight", "my goal is muscle gain",
+        "change my goal to fat loss", "i'm vegetarian", "i am vegan", "i eat eggs but no meat",
+        "i'm lactose intolerant", "i'm allergic to peanuts", "no nuts please", "i train 4 days a week",
+        "i work out 5 times a week", "i'm sedentary", "i have a desk job", "i'm very active",
+        "i go to the gym", "i have only dumbbells at home", "i'm a beginner",
+        "i have been lifting for 3 years", "my target weight is 70 kg", "i want to reach 68 kg",
+        "age 27 male 80kg 175cm", "female 29 yrs 58 kg 162 cm", "5ft 8 inches 150 lbs 31 male", "i'm 21",
+        "i am 85 kg", "170 cm", "weight 72", "height 168", "update my profile", "here are my details",
+        "let me tell you about myself", "i'm a guy", "i am a woman", "my age is 35", "i'm gluten free",
+        "i don't eat dairy", "i work a desk job and walk daily", "my goal is to gain weight",
+        "i want to bulk", "i'd like to cut", "i'm non veg", "i eat everything",
+        "i hate mushrooms and no paneer", "i don't eat mushrooms", "no paneer please", "i dislike fish",
+        "exclude tofu from my plan"
+      ],
+      "templates": [
+        "i am {age} years old {sex} {weight} {height}", "{age} {sex} {height} {weight}",
+        "my weight is {weight}", "my height is {height}", "i weigh {weight} and i'm {height} tall",
+        "set my goal to {goal}", "i want to {goal}", "my goal is to {goal}", "i follow a {diet} diet",
+        "i am {diet}", "i train {days} days a week", "i work out {days} times a week",
+        "update my age to {age}", "my target weight is {weight}", "i'm a {level}", "i am a {sex} aged {age}",
+        "i'm {age}, {sex}, {height}, {weight}, want to {goal}", "change my diet to {diet}",
+        "i don't like {food}", "i hate {food}", "no {food} please", "avoid {food} in my plan",
+        "exclude {food}", "skip {food}", "i hate {food} and {food}"
+      ]
+    },
+    "calc_targets": {
+      "examples": [
+        "calculate my calories", "how many calories should i eat", "how many calories do i need",
+        "what are my macros", "calculate my macros", "my daily calorie target", "what's my bmr",
+        "tdee calculator", "what is my tdee", "how much protein should i eat",
+        "how much protein do i need per day", "calories to lose weight", "calories for muscle gain",
+        "how many calories to maintain my weight", "calculate bmi", "what's my bmi", "am i overweight",
+        "daily targets", "show my targets", "my numbers", "give me my macro split", "calorie deficit for me",
+        "how much should i eat to bulk", "how many carbs should i eat", "how much fat should i eat",
+        "what should my calorie intake be", "work out my calories", "find my maintenance calories",
+        "set my daily calories", "how much do i need to eat per day", "my calorie needs",
+        "figure out my macros", "tell me my protein target", "daily calorie goal"
+      ],
+      "templates": [
+        "how many calories should i eat to {goal}", "calculate my calories to {goal}",
+        "how much protein do i need to {goal}", "my macros for {goal}",
+        "what are my daily targets to {goal}", "calories and macros to {goal}"
+      ]
+    },
+    "meal_plan": {
+      "examples": [
+        "meal plan", "give me a meal plan", "make a diet plan", "plan my meals", "what should i eat today",
+        "what should i eat for the day", "diet chart", "daily meal plan", "plan my day of eating",
+        "create a meal plan for fat loss", "meal plan for muscle gain", "high protein meal plan",
+        "vegetarian meal plan", "vegan diet plan", "indian meal plan", "meal plan 4 meals",
+        "3 meals a day plan", "another meal plan", "give me a different plan", "regenerate the plan",
+        "new meal plan", "suggest a full day of eating", "eating plan for me",
+        "what to eat to hit my macros", "build me a diet", "diet for weight loss", "meal prep plan",
+        "make me a menu for today", "plan today's food", "full day of meals", "can you make me a diet plan",
+        "i need a diet plan", "plan my meals for tomorrow", "give me another one",
+        "different meal plan please", "show me a one day menu", "diet plan to hit my calories",
+        "wat shud i eat today", "what to eat today", "wat to eat for the day", "diet plan pls",
+        "plan meals pls", "what should i be eating today"
+      ],
+      "templates": [
+        "{diet} meal plan", "make me a {n} meal plan", "meal plan for {goal}", "{diet} diet plan for {goal}",
+        "plan {n} meals for me", "give me a {diet} meal plan with {n} meals", "{n} meals a day diet plan",
+        "{diet} menu for today"
+      ]
+    },
+    "workout_plan": {
+      "examples": [
+        "workout plan", "give me a workout plan", "gym routine", "training plan", "create a workout split",
+        "4 day split", "plan my training week", "home workout plan", "no equipment workout",
+        "dumbbell only workout", "beginner workout", "push pull legs", "ppl routine", "upper lower split",
+        "full body routine", "workout for muscle gain", "workout for fat loss", "5 day gym plan",
+        "strength program", "what should i train today", "weekly exercise schedule",
+        "exercise routine for beginners", "give me a 3 day workout", "routine to build muscle",
+        "a program for strength", "make me a gym schedule", "i need a workout routine",
+        "design my training program", "lifting program for me", "new workout plan", "another workout plan",
+        "different workout please", "training split for the week", "how should i train this week",
+        "plan my gym week"
+      ],
+      "templates": [
+        "{days} day workout plan", "{equipment} workout plan", "workout plan for {goal}",
+        "{days} day {equipment} workout", "{level} workout plan", "gym routine for {level}",
+        "{days} days a week training plan", "make me a {days} day split"
+      ]
+    },
+    "log_food": {
+      "examples": [
+        "i ate 2 eggs", "i had a banana", "just had a bowl of dal and rice", "log 2 rotis and dal",
+        "add chicken breast 150 g", "for breakfast i had oats and milk", "lunch was rice dal and sabzi",
+        "had 2 slices of bread for breakfast", "ate pizza for dinner", "i just ate a samosa",
+        "log my lunch: 1 cup rice, chicken curry", "add a protein shake", "i drank a glass of milk",
+        "had chai and 2 biscuits", "eaten 3 idlis", "track 200 g paneer", "i consumed 1 apple",
+        "add 100g chicken to my log", "logged oatmeal with banana", "i had a burger and fries",
+        "dinner: grilled chicken with broccoli and rice", "snack: almonds and an apple",
+        "i had two eggs and toast", "ate a bowl of curd", "log breakfast poha",
+        "i finished a plate of biryani", "had some almonds", "add 2 chapati",
+        "morning snack was a banana and peanut butter", "had dosa with sambar this morning",
+        "i ate rice with rajma", "just finished my protein bar", "add one egg", "had a cup of tea",
+        "log a glass of orange juice"
+      ],
+      "templates": [
+        "i had {qty} {food} for {meal}", "i ate {qty} {food} and {qty} {food}", "log {qty} {food}",
+        "add {qty} {food} to my {meal}", "{meal} was {qty} {food} and {qty} {food}",
+        "just finished {qty} {food}", "{qty} {food} and {qty} {food}",
+        "had {qty} {food}, {qty} {food} and {qty} {food} for {meal}", "ate {qty} {food}",
+        "{meal}: {qty} {food} with {qty} {food}", "i just had {qty} {food}", "track {qty} {food}",
+        "i ate {qty} {food} for {meal}", "had {qty} {food} today", "{qty} {food}"
+      ]
+    },
+    "food_info": {
+      "examples": [
+        "calories in banana", "how many calories in an egg", "how much protein in paneer",
+        "protein in chicken breast", "nutrition facts for oats", "macros of rice", "carbs in a roti",
+        "how many carbs in banana", "is paneer high in protein", "fat in almonds",
+        "how many calories does a samosa have", "calorie count of dosa", "what's in a cup of dal",
+        "tell me about quinoa", "nutritional value of tofu", "kcal in apple", "fiber in oats",
+        "info on peanut butter", "is rice healthy", "calories in 100g chicken",
+        "how many calories in 2 rotis", "protein content of eggs", "how healthy is a banana",
+        "what are the macros of curd", "calories of idli", "is oats good for weight loss",
+        "carbs in sweet potato", "how much fat in paneer", "nutrition of milk", "cals in a slice of bread"
+      ],
+      "templates": [
+        "calories in {food}", "how many calories in {qty} {food}", "how much protein is in {food}",
+        "nutrition facts {food}", "macros for {food}", "how many carbs in {food}", "fat in {food}",
+        "{food} calories", "{food} nutrition", "is {food} good for weight loss", "is {food} healthy",
+        "protein in {qty} {food}", "{food}", "{food} macros", "tell me about {food}",
+        "is {food} high in protein", "what is the nutritional value of {food}", "fiber in {food}"
+      ]
+    },
+    "food_suggest": {
+      "examples": [
+        "high protein snacks", "give me high protein foods", "low calorie dinner ideas",
+        "what should i snack on", "healthy snack ideas", "foods rich in fiber", "vegan protein sources",
+        "good sources of protein for vegetarians", "low carb foods", "foods high in healthy fats",
+        "what can i eat instead of rice", "alternative to white bread", "swap for roti",
+        "substitute for paneer", "replace chicken with something vegetarian", "healthy breakfast ideas",
+        "what to eat before workout", "what to eat after a workout", "post workout meal",
+        "pre workout snack", "what can i eat to hit my protein", "i need more protein ideas",
+        "something sweet but healthy", "low fat breakfast options", "best foods for fat loss",
+        "best foods to gain muscle", "cheap protein sources", "what should i eat to feel full",
+        "filling low calorie foods", "what should i eat for dinner", "ideas for lunch", "suggest a snack",
+        "suggest something high in fiber", "what can i have for breakfast", "give me food ideas",
+        "low calorie snacks"
+      ],
+      "templates": [
+        "high {nutrient} {mealtype} ideas", "{diet} {nutrient} foods", "what can i eat instead of {food}",
+        "healthy alternative to {food}", "swap for {food}", "substitute for {food}",
+        "{nutrient} {mealtype} suggestions", "good {nutrient} foods", "what should i eat for {mealtype}",
+        "{diet} {mealtype} ideas", "replace {food} with something healthier",
+        "i am bored of {food} what else can i eat"
+      ]
+    },
+    "log_weight": {
+      "examples": [
+        "i weigh 77.4 kg today", "weighed in at 80.2", "log weight 79 kg", "my weight this morning was 78.3",
+        "weigh in: 76.9 kg", "today's weight is 80", "i'm 75.5 kg now", "scale says 81.2 kg",
+        "add my weight 77", "record weight 164 lbs", "i weighed 72.8 kg this morning",
+        "current weight 69.9 kg", "just stepped on the scale 83 kg", "weight today 79.4",
+        "i lost weight, now 74 kg", "i'm down to 76 kg", "new weigh in 77.8",
+        "update today's weight to 78.6", "morning weight 80.1 kg", "log my weigh in"
+      ],
+      "templates": [
+        "i weigh {weight} today", "weighed in at {weight}", "log weight {weight}",
+        "my weight this morning was {weight}", "scale says {weight}", "current weight {weight}",
+        "weight today {weight}", "add my weight {weight}", "record my weight as {weight}",
+        "i am {weight} now", "i'm down to {weight}", "i gained a bit now {weight}", "weigh in {weight}"
+      ]
+    },
+    "progress": {
+      "examples": [
+        "how am i doing", "show my progress", "weight trend", "am i on track", "am i losing weight",
+        "how is my weight changing", "progress report", "my weight chart", "weekly progress",
+        "how fast am i losing", "when will i reach my goal weight", "estimate my real maintenance calories",
+        "update my calories based on my progress", "adjust my calories", "is my plan working",
+        "have i hit a plateau", "plateau check", "my stats", "check my trend", "analyze my weight",
+        "review my progress", "am i gaining muscle", "how long until my goal", "show me my weight graph",
+        "how has my weight changed", "am i making progress", "what is my average weekly change",
+        "is my diet working", "how many weeks until i reach my target", "my progress so far",
+        "how much have i lost", "how much weight have i lost so far", "show my results so far"
+      ],
+      "templates": []
+    },
+    "today_summary": {
+      "examples": [
+        "what did i eat today", "calories left", "how many calories have i eaten",
+        "calories remaining today", "how much protein have i had", "show today's log", "today's summary",
+        "what's left for today", "remaining macros", "how am i doing today", "daily summary", "food diary",
+        "show my food log", "how many calories so far", "what have i logged", "my intake today",
+        "did i hit my protein today", "can i still eat dinner", "calories so far today", "macros left",
+        "how much can i still eat", "what is left in my budget", "total calories today", "show what i ate",
+        "how much protein left", "my food log for today", "how many calories do i have left"
+      ],
+      "templates": []
+    },
+    "exercise_info": {
+      "examples": [
+        "how to do a deadlift", "how do i squat", "bench press form", "show exercises for chest",
+        "best biceps exercises", "triceps exercises at home", "what muscles does squat work",
+        "alternatives to bench press", "back exercises with dumbbells", "how to do push ups",
+        "explain romanian deadlift", "proper pull up form", "leg day exercises", "shoulder exercises",
+        "ab exercises", "glute exercises", "how to do lunges", "what is a hip thrust", "form tips for rows",
+        "exercises for lower body", "teach me how to do a plank", "how do i do a lat pulldown",
+        "what exercise works the glutes", "easier alternative to pull ups", "list some core exercises",
+        "how to perform dumbbell curls", "which exercises build chest", "leg day", "chest day", "back day",
+        "arm day", "shoulder day"
+      ],
+      "templates": [
+        "how to do {exercise}", "{muscle} exercises", "best exercises for {muscle}", "{exercise} form",
+        "{exercise} alternatives", "which muscles does {exercise} work", "how do i do {exercise}",
+        "{muscle} exercises at {equipment}", "explain {exercise}", "what is {exercise}"
+      ]
+    },
+    "reset": {
+      "examples": [
+        "reset my data", "clear everything", "delete my profile", "start over", "wipe my data",
+        "erase my logs", "reset profile", "delete all my data", "clear my history", "forget everything",
+        "remove my data", "reset everything", "factory reset", "clear all my information",
+        "i want to start fresh", "erase everything you know about me"
+      ],
+      "templates": []
+    },
+    "out_of_scope": {
+      "examples": [
+        "who won the cricket match", "what's the weather today", "tell me a joke",
+        "write a poem about the sea", "what is the capital of france", "solve 2x plus 3 equals 7",
+        "bitcoin price today", "latest movie releases", "how do i fix my laptop",
+        "write python code to sort a list", "translate hello to spanish", "what is the meaning of life",
+        "recommend a movie", "who is the prime minister", "play some music", "book a flight to delhi",
+        "stock market today", "how can i make money online", "what's the news", "tell me a story",
+        "how tall is mount everest", "what is machine learning", "explain quantum physics",
+        "how to learn guitar", "best smartphone to buy", "can you do my homework", "sing me a song",
+        "what time is it", "what is the date today", "give me a recipe for chocolate cake",
+        "how do i bake bread", "who is the richest man", "what is the speed of light", "how to tie a tie",
+        "what should i name my dog", "help me write an email to my boss", "what is a good laptop",
+        "how do i reset my password", "open youtube", "call my mom", "set an alarm for 6am",
+        "is it going to rain", "how far is the moon", "write an essay on climate change",
+        "summarize this article", "who invented the telephone", "what year did world war two end",
+        "tell me something interesting", "are you single", "what is your favorite color",
+        "how do i invest in mutual funds", "explain blockchain", "fix my code", "convert 10 miles to km",
+        "how do i cook pasta from scratch", "what is the best cricket team", "recommend a good book",
+        "how do i get a job", "what is the price of gold", "tell me about the history of india",
+        "can you book a table for dinner", "which car should i buy", "i am sad", "i feel bad today",
+        "i'm bored", "i am tired", "i'm stressed", "i feel lonely", "i am angry", "write me a cover letter",
+        "what is the best programming language", "how do i make pizza dough", "who won the world cup",
+        "tell me a funny joke"
+      ],
+      "templates": []
+    }
+  }
+}
