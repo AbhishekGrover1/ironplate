@@ -1,6 +1,4 @@
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0:0e1013,100:2b3036&text=Ironplate&fontColor=ebe8e2&fontSize=56&fontAlignY=40&desc=Nutrition%20and%20training%20assistant&descAlignY=62&descSize=16" alt="Ironplate" width="100%">
+# *Ironplate*
 
 ![Python](https://img.shields.io/badge/Python-3.12-a8c8ec?style=flat-square&logo=python&logoColor=ebe8e2&labelColor=1b1f24)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.143-a6dcc6?style=flat-square&logo=fastapi&logoColor=ebe8e2&labelColor=1b1f24)
